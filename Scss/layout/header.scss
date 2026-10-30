@@ -2,6 +2,7 @@ header{
     background: rebeccapurple;
     nav{
         @include flex();
+        padding: 20px 0;
         ul{
             display: flex;
             align-items: center;
