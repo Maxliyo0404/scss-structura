@@ -1,6 +1,6 @@
 header{
     background: rebeccapurple;
     nav{
-        
+        @include flex();
     }
 }
