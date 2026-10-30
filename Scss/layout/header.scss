@@ -2,5 +2,13 @@ header{
     background: rebeccapurple;
     nav{
         @include flex();
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            a{
+                color: white;
+            }
+        }
     }
 }
